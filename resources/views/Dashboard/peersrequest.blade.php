@@ -64,7 +64,7 @@
                                 @php $counter+=1 @endphp
                         <tr>
 
-                        <td> <a href="{{ route('profile.show', ['id'=> $loan->user_id]) }}" > {{ App\User::find($loan->user_id)->name }}</a><br>
+                        <td> <a href="{{ route('profile.show', ['profile'=> $loan->user_id]) }}" > {{ App\User::find($loan->user_id)->name }}</a><br>
 
                             @php $rate_container=App\User::find($loan->user_id)->user_average_rate() @endphp
                              <input id="input-15" class="rating" value="{{$rate_container['average_rate']}}" data-size="xs" data-glyphicon="false" data-rating-class="fontawesome-icon" data-readonly="true">

@@ -58,7 +58,7 @@
                 <!-- Logo
                 ============================================= -->
                 <div id="logo">
-                    <a href="{{ route('landing') }}" class="standard-logo" data-dark-logo="{{ URL::asset('/images/logo 2.png')}}"><img src="{{ URL::asset('/images/logo 2.png')}}" alt="3aNota Logo"></a>
+                    <a href="{{ route('landing') }}" class="standard-logo" data-dark-logo="{{ URL::asset('/images/logo 2.png')}}"><img src="{{ URL::asset('/images/logo 2.png')}}" alt="Vestpod Logo"></a>
                 </div><!-- #logo end -->
 
                 <!-- Primary Navigation
@@ -134,10 +134,10 @@
                         <div class="widget clearfix">
                             <div class="row clearfix">
                                 <div class="col-md-8 bottommargin-sm clearfix" style="color:#888;">
-                                    <img src="{{ URL::asset('/images/footer-logo.png')}}" alt="3aNota Logo" style="display: block;" class="bottommargin-sm">
-                                    <p> 3aNota is an Online Platform that connects borrowers with lenders creating a peer to peer lending network.
+                                    <img src="{{ URL::asset('/images/footer-logo.png')}}" alt="Vestpod Logo" style="display: block;" class="bottommargin-sm">
+                                    <p> Vestpod is an Online Platform that connects borrowers with lenders creating a peer to peer lending network.
                                         <br> We are Digitizing  the  process of lending and borrowing.
-                                        Join the biggest peer to peer Social lending network in Egypt NOW</p>
+                                        Join the biggest peer to peer Social lending network in Nigeria NOW</p>
 
 
                                 </div>
@@ -154,7 +154,7 @@
                                     <h4>About Us</h4>
 
                                     <ul>
-                                        <li><a href="http://codex.wordpress.org/">About 3aNota</a></li>
+                                        <li><a href="http://codex.wordpress.org/">About Vestpod</a></li>
                                         <li><a href="http://wordpress.org/support/forum/requests-and-feedback"> Contact Us </a></li>
                                         <li><a href="http://wordpress.org/extend/plugins/"> Blog </a></li>
                                         <li><a href="http://wordpress.org/extend/plugins/">Get A Loan</a></li>
@@ -193,7 +193,7 @@
                     <div class="container clearfix center">
 
                         <div class="col-md-12 ">
-                            Copyrights &copy; 2018 All Rights Reserved by 3aNota Inc.<br>
+                            Copyrights &copy; 2018 All Rights Reserved by Vestpod Inc.<br>
                             <div class="copyright-links"><a href="{{route('terms')}}">Terms of Use</a> / <a href="{{route('policy')}}}">Privacy Policy</a></div>
                         </div>
                     </div>

@@ -22,6 +22,36 @@ class HomeController extends Controller
     {
         $this->middleware('auth');
     }
+    
+    public function generate_string($length=12) {
+    $permitted_chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    return substr(str_shuffle($permitted_chars), 0, $length);
+    }
+    
+    public static function wallet_headers() {
+        $date = new DateTime();
+        $response = Http::withHeaders([
+        'Content-Type' => 'application/json',
+        'access_key' => '17AFE8F7F9ACAA9F741B',
+        'signature' => generate_string(),    
+        'salt' => generate_string(),
+        'timestamp' => $date->getTimestamp()
+        ]);
+    }
+    
+    /**
+    *
+    *
+    * Generate UUID
+    */
+    public static function generate_random_string() {
+        $characters = '0123ABCDEFGHI45jklmnopqrstuvwxyzabcdefghi6789JKLMNOPQRSTUVWXYZ';
+        $random_string = '';
+        for ($i = 0; $i < 5; $i++) {
+            $random_string .= $characters[rand(0, (strlen($characters) - 1))];
+        }
+        return $random_string;
+    }
 
     /**
      * Show the application dashboard.
@@ -36,7 +66,7 @@ class HomeController extends Controller
         $Credit = 0;
         $paid = 0;
         $TotalPayback = 0;
-
+        $names[] = ""; 
 
         $loans = loanRequests::where([
             ['user_id', Auth::user()->id],
@@ -100,7 +130,7 @@ class HomeController extends Controller
 
             }
 
-
+            //return view('Dashboard.mydashboard', compact('Debit', 'paid', 'loans', 'Credit', 'contribution', 'TotalPayback'));
 
             return view('Dashboard.mydashboard', compact('Debit', 'paid', 'loans', 'Credit', 'contribution', 'names', 'TotalPayback'));
     }
@@ -119,5 +149,3 @@ class HomeController extends Controller
 
 
 }
-
-

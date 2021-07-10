@@ -18,7 +18,8 @@ class PaybackController extends Controller
     public function mypayback()
     {
 
-
+        $names[] = "";
+        $paid[] = "";
         $loans = loanRequests::where([
             ['user_id',Auth::user()->id],['status','complete'],['paymentStatus',NULL] ])->get();
 

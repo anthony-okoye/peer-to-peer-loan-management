@@ -51,6 +51,9 @@ class loanrequest extends Controller
         $loan->rate=$request->rate;
         $loan->total=$request->total;
         $loan->payback=$request->payback;
+        $loan->status=$request->status;
+        $loan->deadline=$request->deadline;
+        $loan->paymentStatus=$request->paymentStatus;
         $loan->save();
 
         return redirect()->route('loanrequest.show',['id'=>Auth::user()->id])->with('message', 'loan request published');

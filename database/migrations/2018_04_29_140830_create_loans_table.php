@@ -21,10 +21,10 @@ class CreateLoansTable extends Migration
             $table-> integer('period');
             $table-> float('rate');
             $table-> float('total');
-            $table-> float('payback');
-            $table->string('status');
-            $table->date('deadline');
-            $table->string('paymentStatus');
+            $table-> float('payback')->nullable();
+            $table->string('status')->nullable();
+            $table->date('deadline')->nullable();
+            $table->string('paymentStatus')->nullable();
             $table->timestamps();
         });
     }

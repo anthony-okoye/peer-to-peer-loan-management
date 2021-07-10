@@ -17,7 +17,7 @@
         </div>
     @endif
 
-{!! Form::model(Auth::user(),['route'=>['profile.update','id'=>Auth::user()->id],'method'=>'PUT','files'=>true]) !!}
+{!! Form::model(Auth::user(),['route'=>['profile.update','profile'=>Auth::user()->id],'method'=>'PUT','files'=>true]) !!}
 
 
 {!! Form::label('name' , 'User Name')!!}

@@ -17,7 +17,9 @@ class TransController extends Controller
 
     public function index()
     {
-
+        $borrowerName[]= "";
+        $lenderName[]= "";
+        
         $id = Auth::user()->id;
 
         $lender = Transactions::where('from', '=', $id)->get();

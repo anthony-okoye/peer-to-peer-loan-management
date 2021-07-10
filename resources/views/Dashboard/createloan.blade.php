@@ -52,7 +52,7 @@
     {!! Form::close() !!}
             </div>
             <div class="col-sm-6 ">
-        {!! Form::open(['method'=>'get','route'=>['loanrequest.show','id'=>Auth::user()->id]] ) !!}
+        {!! Form::open(['method'=>'get','route'=>['loanrequest.show','loanrequest'=>Auth::user()->id]] ) !!}
             {!! Form::submit('Decline Loan',['class'=>'button button-medium button-circle button-red ']) !!}
             {!! Form::close() !!}
             </div>

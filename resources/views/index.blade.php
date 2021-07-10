@@ -81,7 +81,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>3aNota | Social Loans</title>
+	<title>Vestpod | Social Loans</title>
 
 </head>
 
@@ -142,7 +142,7 @@
 						 data-paddingbottom="[0,0,0,0]"
 						 data-paddingleft="[0,0,0,0]"
 
-						 style="z-index: 6; white-space: nowrap; font-size: 100px; line-height: 90px; font-weight: 900; color:black;font-family:'Poppins';letter-spacing:5px;">3aNota</div>
+						 style="z-index: 6; white-space: nowrap; font-size: 100px; line-height: 90px; font-weight: 900; color:black;font-family:'Poppins';letter-spacing:5px;">Vestpod</div>
 
 					<!-- LAYER NR. 3 -->
 					<div class="tp-caption   tp-resizeme"
@@ -164,7 +164,7 @@
 						 data-paddingbottom="[0,0,0,0]"
 						 data-paddingleft="[0,0,0,0]"
 
-						 style="z-index: 7; min-width: 460px; max-width: 460px; white-space: normal; font-size: 30px; line-height: 35px; font-weight: 800; color: Black;font-family:Poppins;letter-spacing:10px;">THE FIRST PEER TO PEER LENDING NETWORK IN EGYPT </div>
+						 style="z-index: 7; min-width: 460px; max-width: 460px; white-space: normal; font-size: 30px; line-height: 35px; font-weight: 800; color: Black;font-family:Poppins;letter-spacing:10px;">THE FIRST PEER TO PEER LENDING NETWORK IN Nigeria </div>
 
 
 
@@ -191,7 +191,7 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo 2.png"><img src="images/logo 2.png" alt="3aNota Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo002.png"><img src="images/logo002.png" alt="Vestpod Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -585,7 +585,7 @@
 
 						<div class="pricing-box best-price">
 							<div class="pricing-title">
-								<h3>3aNota</h3>
+								<h3>Vestpod</h3>
 								<span> <b> Flexible and Tailored for YOU </b> </span>
 							</div>
 							<div class="pricing-price">
@@ -681,7 +681,7 @@
 							<h2 class="center font-body bottommargin-lg">Frequently Asked Questions</h2>
 
 						<div class="col-md-6 col-sm-6 ">
-								<h4 class="font-body" style="margin-bottom:15px;">What types of people does 3aNota serve?</h4>
+								<h4 class="font-body" style="margin-bottom:15px;">What types of people does Vestpod serve?</h4>
 								<p>We help provide finance for the unbanked , For a large population that has no credit history,
 									and hence can’t access conventional financing from banks and other institutions.<br>
 									Trustworthy and credible individuals who love to help and support their peers to reach their goals by providing financing support.<br>
@@ -692,8 +692,8 @@
 
 
 							<div class="col-md-6 col-sm-6">
-								<h4 class="font-body" style="margin-bottom:15px;">What are the risks involved with lending on 3aNota ?</h4>
-								<p>Contributors on 3aNota may face the risk that borrowers will default on their loans.
+								<h4 class="font-body" style="margin-bottom:15px;">What are the risks involved with lending on Vestpod ?</h4>
+								<p>Contributors on Vestpod may face the risk that borrowers will default on their loans.
 									This mean that Contributors may lose all or part of their money.</p>
 							</div>
 						<div class="line"></div>
@@ -727,7 +727,7 @@
 							</div>
 							<div class="col-md-6 col-sm-6 ">
 								<h4 class="font-body" style="margin-bottom:15px;">Does having a loan request on the platform necessarily mean that you will receive funding?</h4>
-								<p class="nobottommargin">No, publishing a loan request on 3aNota enables you to notify all your network
+								<p class="nobottommargin">No, publishing a loan request on Vestpod enables you to notify all your network
 									of your need but It does not guarantee that they will choose to lend you .</p>
 							</div>
 						<div class="line"></div>
@@ -809,10 +809,10 @@
 
 												<address>
 													<strong>Headquarters:</strong><br>
-													Cairo Egypt<br>
+													Cairo Nigeria<br>
 												</address>
 												<abbr title="Phone Number"><strong>Phone:</strong></abbr> <br>
-												<abbr title="Email Address"><strong>Email:</strong></abbr> info@3anota.com
+												<abbr title="Email Address"><strong>Email:</strong></abbr> info@Vestpod.com
 
 
 												<div class="widget noborder notoppadding">
@@ -862,10 +862,10 @@
 							<div class="widget clearfix">
 								<div class="row clearfix">
 									<div class="col-md-8 bottommargin-sm clearfix" style="color:#888;">
-										<img src="images/footer-logo.png" alt="3aNota Logo" style="display: block;" class="bottommargin-sm">
-										<p> 3aNota is an Online Platform that connects borrowers with lenders creating a peer to peer lending network.
+										<img src="images/footer-logo00.png" alt="Vestpod Logo" style="display: block;" class="bottommargin-sm">
+										<p> Vestpod is an Online Platform that connects borrowers with lenders creating a peer to peer lending network.
                                             <br> We are Digitizing  the  process of lending and borrowing.
-                                            Join the biggest peer to peer Social lending network in Egypt NOW</p>
+                                            Join the biggest peer to peer Social lending network in Nigeria NOW</p>
 
 
 									</div>
@@ -882,7 +882,7 @@
 										<h4>About Us</h4>
 
 										<ul>
-											<li><a href="http://codex.wordpress.org/">About 3aNota</a></li>
+											<li><a href="http://codex.wordpress.org/">About Vestpod</a></li>
 											<li><a href="http://wordpress.org/support/forum/requests-and-feedback"> Contact Us </a></li>
 											<li><a href="http://wordpress.org/extend/plugins/"> Blog </a></li>
                                             <li><a href="http://wordpress.org/extend/plugins/">Get A Loan</a></li>
@@ -922,7 +922,7 @@
 				<div class="container clearfix center">
 
 					<div class="col-md-12 ">
-						Copyrights &copy; 2018 All Rights Reserved by 3aNota Inc.<br>
+						Copyrights &copy; 2018 All Rights Reserved by Vestpod Inc.<br>
 						<div class="copyright-links"><a href="{{route('terms')}}">Terms of Use</a> / <a href="{{route('policy')}}}">Privacy Policy</a></div>
 					</div>
 				</div>

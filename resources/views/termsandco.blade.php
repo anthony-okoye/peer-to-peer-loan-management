@@ -35,7 +35,7 @@
         </ul>
 
 
-        <h4> Terms and Conditions <h3>3aNota</h3> </h4>
+        <h4> Terms and Conditions <h3>Vestpod</h3> </h4>
         <p>
 
    <p> Quick and simple peer to peer lending platform<br>
@@ -53,33 +53,33 @@
         and you are fully responsible for all activities that occur under the account
         and any other actions taken in connection with it.<br>
         5. You must not describe or assign keywords to your account in a misleading or unlawful manner.<br>
-        6.3aNota reserves the right to change the payment terms and fees  prior written notice to you.<br>
+        6.Vestpod reserves the right to change the payment terms and fees  prior written notice to you.<br>
         7.Disclaims any responsibility for any harm resulting from the use by visitors of the Website,
         or from any downloading by those visitors of content there posted.<br>
-        8.3aNota reserves the right to display advertisements on your user profile.<br>
-        9.eliminate the complexity of conventional  loans by offering an online 3aNota platform
+        8.Vestpod reserves the right to display advertisements on your user profile.<br>
+        9.eliminate the complexity of conventional  loans by offering an online Vestpod platform
         that faster the process of tracking  and managing ( cash collections ,  loans and payback )<br>
         10.To gain full access to the platform  you will need to complete a few more steps<br>
         a.Complete profile data
         b.Validate your profile
         c.have agreed to our Terms and Conditions and Privacy Policy
         11.the legal documents including the loan contracts between lenders and borrowers
-        (wasl amana)  and  3aNota  is not a part of that contract.<br>
+        (wasl amana)  and  Vestpod  is not a part of that contract.<br>
         12.faster access to unlimited cash loan without the need of any legit guarantees or
         hard requirements  .<br>
-        13.A form of crowd-funding as lenders provide cash to borrowers . lending on 3aNota depends on you peers network  as you can have a network  of hundreds of potential lenders  .
-        14.3aNota an online portal that provides loans - borrowing management services .
+        13.A form of crowd-funding as lenders provide cash to borrowers . lending on Vestpod depends on you peers network  as you can have a network  of hundreds of potential lenders  .
+        14.Vestpod an online portal that provides loans - borrowing management services .
         15.we are committed to make the registration process as easy and straightforward as possible.
         16.Applying the technology of peer to peer lending dramatically reduces the cost, complexity and long time lines often associated with conventional finance
 
        <u> Lenders  terms and conditions</u>
-        Lenders should fully understand the transaction structure, the fees, and the risks inherent in lending through  3aNota platform , Please read the following terms carefully and check the box to signify your understanding and agreement to these terms:
-        1.Lenders  on 3aNota face the risk that borrowers will default on their loans.
+        Lenders should fully understand the transaction structure, the fees, and the risks inherent in lending through  Vestpod platform , Please read the following terms carefully and check the box to signify your understanding and agreement to these terms:
+        1.Lenders  on Vestpod face the risk that borrowers will default on their loans.
         2.Lenders have to conduct a thorough assessment of borrowers trustworthiness and credibility , It’s the lender responsibility to decide on which peer deserve the loan.
-        3.3aNota operates  a peer to peer lending and loan management platform
+        3.Vestpod operates  a peer to peer lending and loan management platform
         4.When a loan gets cash funded, both borrower and lenders will sign a contract , To guarantee all parties rights
         You are lending to your trusted and credible peers but you need to be aware of the risk of default which could result in the loss of all or part of your money. You may also experience delays in being repaid.
-        The  contract will be directly between lender and the borrower . 3aNota is not party to the contract .
+        The  contract will be directly between lender and the borrower . Vestpod is not party to the contract .
 
     </div>
     </section>

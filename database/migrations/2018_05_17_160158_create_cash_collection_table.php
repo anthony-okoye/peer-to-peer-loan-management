@@ -18,11 +18,11 @@ class CreateCashCollectionTable extends Migration
             $table->string('loan_id'); //will use loan id to get the borrower user id
             $table->string('user_id'); //lender
             $table->integer('amount')->unsigned();
-            $table->float('percent');
+            $table->float('percent')->nullable();
             $table->integer('payback')->unsigned();
             $table->string('status');
             $table->string('paymentmethod');
-            $table->date('deadline');
+            $table->date('deadline')->nullable();
             $table->timestamps();
         });
     }

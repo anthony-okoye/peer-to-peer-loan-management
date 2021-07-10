@@ -57,9 +57,9 @@
                     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="icon-user"> {{ Auth::user()->name }}</i><i class="icon-angle-down"></i>  </a>
 
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-                        <li><a href="{{ route('profile.show',['id'=> Auth::user()->id])}}">Profile</a></li>
+                        <li><a href="{{ route('profile.show',['profile'=> Auth::user()->id])}}">Profile</a></li>
                         <li><a href="{{route('dashboard')}}">DashBoard</a></li>
-                        <li><a href="{{ route('profile.edit',['id'=> Auth::user()->id]) }}">Edit Profile</a></li>
+                        <li><a href="{{ route('profile.edit',['profile'=> Auth::user()->id]) }}">Edit Profile</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();

@@ -95,7 +95,7 @@
                             {!! Form::open(['route'=>['confirmed','id'=>$pending->id] ]) !!}
                             <td>{{ $pending->amount}} </td>
 
-                            <td> <a href="{{route('profile.show',['id'=>$pending->user_id] )}}">{{ App\User::find($pending->user_id)->name }}</a> </td>
+                            <td> <a href="{{route('profile.show',['profile'=>$pending->user_id] )}}">{{ App\User::find($pending->user_id)->name }}</a> </td>
                             <td> Mobile : <a href="tel:{{ App\User::find($pending->user_id)->mobile}}"> {{ App\User::find($pending->user_id)->mobile}} </a> <br>
                                    Email : <a href="mailto:{{ App\User::find($pending->user_id)->email}}"> {{ App\User::find($pending->user_id)->email}} </a> </td>
                             <td>{{ $pending->paymentmethod}} </td>
@@ -135,7 +135,7 @@
                         @foreach($confirmed as $confirmed)
                             <tr>
                                 <td>{{ $confirmed->amount}} </td>
-                                <td> <a href="{{route('profile.show',['id'=>$confirmed->user_id] )}}">{{ App\User::find($confirmed->user_id)->name }}</a> </td>
+                                <td> <a href="{{route('profile.show',['profile'=>$confirmed->user_id] )}}">{{ App\User::find($confirmed->user_id)->name }}</a> </td>
                                 <td> {{$confirmed->updated_at}} </td>
 
                             </tr>

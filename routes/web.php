@@ -60,7 +60,9 @@ Route::get('registration', function (){
 Route::get('mynetwork', 'mynetwork@index')->name('mynetwork');
 Route::get('mynetwork/find', 'mynetwork@findpeer')->name('findpeer');
 
-Route::resource('loanrequest', 'loanrequest');
+Route::resource('loanrequest','loanrequest');
+
+Route::get('loanrequest{id}', 'loanrequest@show');
 
 Route::get('peersrequest/{sort?}','loanrequest@showpeers')->name('showpeers');
 
@@ -82,6 +84,3 @@ Route::get('Transactions','TransController@index')->name('transactions');
 Route::get('Payback_Schedule','PaybackController@mypayback')->name('payback');
 
 Route::get('Payback_Schedule_Update/{loanid}/{userid}','PaybackController@NewDeadline')->name('updateDate');
-
-
-

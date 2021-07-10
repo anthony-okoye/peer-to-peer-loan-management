@@ -56,7 +56,7 @@
                 <nav id="primary-menu">
                     <ul>
                         <li><a href="{{route('showpeers')}}"><i class="icon-rss"></i> Peers  Requests </a></li>
-                        <li><a href="{{ route('loanrequest.show',['id' =>Auth::user()->id])}}"><i class="icon-pencil2"></i> My Requests </a></li>
+                        <li><a href="{{ route('loanrequest.show',['loanrequest' =>Auth::user()->id])}}"><i class="icon-pencil2"></i> My Requests </a></li>
                         <li><a href="{{route('mynetwork')}}"><i class="icon-users"></i>  Network </a></li>
                         <li><a href="{{route('transactions')}}"><i class="icon-reply"></i> Transactions </a></li>
                         <li><a href="{{route('payback')}}"><i class="icon-users"></i> Payback Schedules </a></li>
@@ -75,9 +75,9 @@
             <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="icon-user"> {{ Auth::user()->name }}</i><i class="icon-angle-down"></i>  </a>
 
             <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-                <li><a href="{{ route('profile.show',['id'=> Auth::user()->id])}}">Profile</a></li>
+                <li><a href="{{ route('profile.show',['profile'=> Auth::user()->id])}}">Profile</a></li>
                 <li><a href="{{route('dashboard')}}">DashBoard</a></li>
-                <li><a href="{{ route('profile.edit',['id'=> Auth::user()->id]) }}">Edit Profile</a></li>
+                <li><a href="{{ route('profile.edit',['profile'=> Auth::user()->id]) }}">Edit Profile</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a class="dropdown-item" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
